@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Classic Animated Films</title>
+  <style>
+    body {
+      font-family: "Georgia", serif;
+      margin: 0;
+      background: radial-gradient(circle at top, #1a1a2e 0%, #16213e 80%);
+      color: #f0e6d2;
+      text-align: center;
+    }
+
+    header {
+      background: linear-gradient(90deg, #c29b6f, #b76e79);
+      padding: 30px 10px;
+      border-bottom: 3px solid #e6c88f;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+    }
+
+    header h1 {
+      font-family: "Times New Roman", serif;
+      font-size: 2.8em;
+      margin: 0;
+      color: #fff8e7;
+      text-shadow: 2px 2px 8px #000;
+    }
+
+    header p {
+      font-style: italic;
+      margin-top: 5px;
+      color: #f5e1b9;
+      letter-spacing: 1px;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+      gap: 40px;
+      padding: 40px;
+    }
+
+    .card {
+      background: #22213b;
+      border-radius: 15px;
+      border: 2px solid #c29b6f;
+      box-shadow: 0 0 25px rgba(194,155,111,0.3);
+      overflow: hidden;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 0 35px rgba(255,230,180,0.5);
+    }
+
+    iframe {
+      width: 100%;
+      height: 210px;
+      border: none;
+    }
+
+    .card-content {
+      padding: 20px;
+    }
+
+    .card h3 {
+      color: #ffd36e;
+      font-family: "Cinzel", serif;
+      letter-spacing: 1px;
+      font-size: 1.6em;
+      margin-bottom: 10px;
+      text-shadow: 1px 1px 5px #000;
+    }
+
+    .card p {
+      font-size: 0.95em;
+      color: #f0e6d2;
+      background: rgba(255,255,255,0.05);
+      border-radius: 10px;
+      padding: 10px;
+      margin-bottom: 15px;
+      line-height: 1.5em;
+    }
+
+    .card a {
+      display: inline-block;
+      padding: 10px 20px;
+      background: linear-gradient(90deg, #b76e79, #c29b6f);
+      color: #fffaf0;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+
+    .card a:hover {
+      background: linear-gradient(90deg, #e6c88f, #b76e79);
+    }
+
+    footer {
+      background: #0f0f1f;
+      padding: 15px;
+      color: #a8997a;
+      font-size: 0.9em;
+      border-top: 2px solid #c29b6f;
+      letter-spacing: 1px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>✨ Classic Animated Films ✨</h1>
+  <p>Timeless adventures that shaped imagination and storytelling</p>
+</header>
+
+<div class="container">
+
+  <!-- Toy Story -->
+  <div class="card">
+    <iframe src="https://www.youtube.com/embed/KYz2wyBy3kc" allowfullscreen></iframe>
+    <div class="card-content">
+      <h3>Toy Story</h3>
+      <p>The groundbreaking Pixar classic where Woody and Buzz Lightyear embark on a journey of friendship, loyalty, and adventure.</p>
+      <a href="https://www.youtube.com/watch?v=KYz2wyBy3kc" target="_blank">🎬 Watch Trailer</a>
+    </div>
+  </div>
+
+  <!-- Mulan -->
+  <div class="card">
+    <iframe src="https://www.youtube.com/embed/KK8FHdFluOQ" allowfullscreen></iframe>
+    <div class="card-content">
+      <h3>Mulan</h3>
+      <p>Defying tradition, Mulan disguises herself as a man to bring honor to her family and save China with bravery and heart.</p>
+      <a href="https://www.youtube.com/watch?v=KK8FHdFluOQ" target="_blank">🎬 Watch Trailer</a>
+    </div>
+  </div>
+
+  <!-- Shrek -->
+  <div class="card">
+    <iframe src="https://www.youtube.com/embed/CwXOrWvPBPk" allowfullscreen></iframe>
+    <div class="card-content">
+      <h3>Shrek</h3>
+      <p>In this fairy-tale twist, an ogre’s peaceful swamp is invaded, sending him on a hilarious quest filled with love and laughter.</p>
+      <a href="https://www.youtube.com/watch?v=CwXOrWvPBPk" target="_blank">🎬 Watch Trailer</a>
+    </div>
+  </div>
+
+  <!-- The Princess and the Frog -->
+  <div class="card">
+    <iframe src="https://www.youtube.com/embed/Cy_VU4ZyLLc" allowfullscreen></iframe>
+    <div class="card-content">
+      <h3>The Princess and the Frog</h3>
+      <p>Set in jazz-age New Orleans, Tiana’s dream of owning a restaurant turns magical after a kiss from a talking frog prince.</p>
+      <a href="https://www.youtube.com/watch?v=Cy_VU4ZyLLc" target="_blank">🎬 Watch Trailer</a>
+    </div>
+  </div>
+
+  <!-- Moana -->
+  <div class="card">
+    <iframe src="https://www.youtube.com/embed/LKFuXETZUsI" allowfullscreen></iframe>
+    <div class="card-content">
+      <h3>Moana</h3>
+      <p>A spirited voyager sails across the ocean to save her people, discovering courage, destiny, and the legend of Maui along the way.</p>
+      <a href="https://www.youtube.com/watch?v=LKFuXETZUsI" target="_blank">🎬 Watch Trailer</a>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  <p>© 2025 Animation Classics | A tribute to timeless storytelling</p>
+</footer>
+
+</body>
+</html>
