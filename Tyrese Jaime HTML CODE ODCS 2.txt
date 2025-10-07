@@ -1,0 +1,61 @@
+<html>
+      <title> My 5 Favorite Cartoons </title>
+	  <head> </head>
+	         <body bgcolor="#FFFFFF">
+			 <h1> These are my 5 favorite cartoons</h1>
+			 
+			 <table border="2">
+			    <tr>
+				    <th>Name</th>
+					<th>Video</th>
+					<th>Description</th>
+				</tr>
+				<tr>
+				    <td>GUMBALL</td>
+					<td>
+					    <iframe width="560" height="315"
+						src="https://youtu.be/L8MR-x5g3G0?si=Hg4z4z8zYHanZWJl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+						</iframe>
+					</td>
+					<td> GUMBALL: A 12-year-old cat, Gumball Watterson, stays in Elmore and has a penchant for getting into trouble along with his best friend, a fish named Darwin.</td>
+				</tr>
+				<tr>
+				    <td>Ben 10s</td>
+					<td>
+					    <iframe width="560" height="315"
+						src="https://youtu.be/d-ENzn7ElfI?si=Upy6tXgBEAOCz8E7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+						</iframe>
+					</td>
+					<td>Ben 10:S is an animated series that follows a teenage Ben Tennyson as he teams up with a new partner, Rook, to battle old and new villains using his powerful Omnitrix. The show mixes action, humor, and a fresh art style while exploring both younger and older versions of Ben.</td>
+				</tr>
+				<tr>
+				    <td>Steven Universe</td>
+					<td>
+					     <iframe width="560" height="315" 
+					     src="https://youtu.be/zlYUhmXCkZk?si=xRV53KEvAmHULk8E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+						 </iframe>
+					</td>
+					<td>Steven Universe: Steven, a young boy, inherits a magical gemstone from his mother. He tries to figure out the secrets and spends his days in Beach City with the other Crystal Gems.</td>
+				</tr>
+				<tr>
+				    <td>Mr. Bean</td>
+					<td>
+					    <iframe width="560" height="315"
+						src="https://youtu.be/m1oPIrWKnf8?si=Pzq1C2O81y2xvopH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+						</iframe>
+					</td>
+					<td>Mr. Bean: The childish Mr Bean uses his unusual wit to fulfil everyday tasks. But, more often than not, he creates trouble for himself and those around him.</td>
+				</tr>
+				<tr>
+				    <td>Teen Titans Go!</td>
+					<td>
+					    <iframe width="560" height="315" 
+						src="https://youtu.be/gJ50hx7vmXI?si=vS9VdmTIEySO_HL6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+						</iframe>
+					</td>
+					<td>Teen Titans Go!: The superheroes Robin, Cyborg, Starfire, Raven and Beast Boy love saving the world. But after they decide to stop fighting crime, things do not go as planned.</td>
+				</td>
+			</table>
+			
+	        </body>
+</html>
